@@ -32,6 +32,10 @@ public class Solution {
 2. 【O(n*log(n))】 先排序，然后前后取一个数字分别相加，判断是否等于target，等于的话就取出索引
 3. 【O(n)】 使用字典，遍历数组，把元素和索引都放入字典中，找到与其相加等于target的元素的时候，从字典中取出索引。
 
+**问题答案**
+
+![ac](http://7tsy9a.com1.z0.glb.clouddn.com/mewujnleetcode/twosum.png)
+
 ```C#
 using System;
 using System.Collections.Generic;
